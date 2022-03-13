@@ -8,7 +8,7 @@ import connectDB from './config/db.js'
 import userRoutes from './routes/userRoutes.js'
 import taskRoutes from './routes/taskRoutes.js'
 
-import { errorHandler, notFound } from './Middlewares/errorMiddleware.js'
+import { errorHandler, notFound } from './middlewares/errorMiddleware.js'
 
 dotenv.config()
 
