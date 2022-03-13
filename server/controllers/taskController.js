@@ -1,5 +1,5 @@
 import asyncHandler from 'express-async-handler'
-import Task from '../Models/taskModel.js'
+import Task from '../models/taskModel.js'
 
 // @desc    CREATE A TASK
 // @route   POST /api/tasks/
